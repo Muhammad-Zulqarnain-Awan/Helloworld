@@ -24,7 +24,7 @@ jobs:
   
   job4:
     name: job-4
-    needs: [job-1, job-2, job-3]
+    needs: [job1, job2, job3]
     runs-on: ubuntu-latest
     steps:
       - run: date
